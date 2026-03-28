@@ -1,11 +1,4 @@
-Setting up a professional **README** is the first thing a high-level engineer does. It’s not just for people—it’s for **AI Agents** (like me or Cursor) to understand how to help you correctly.
 
-Since we are using **pnpm workspaces**, **HeroUI (v3)**, and **LangGraph**, your README needs to reflect that architecture.
-
-### 1. Create the Root README.md
-In your `nexus-wealth/` folder, create a `README.md` with this content:
-
-```markdown
 # 🏛️ Nexus Wealth Intelligence
 **Autonomous Multi-Agent Financial Operating System**
 
@@ -98,18 +91,6 @@ This is the "Secret Sauce." It tells any AI agent exactly how to write code for 
 - **Exports:** Prefer named exports over default exports.
 - **Async:** Use `async/await` exclusively.
 - **Patterns:** Use the **Provider** pattern for AI models and **Adapter** pattern for external APIs.
-```
-
----
-
-### 3. Push to Git
-Now, save these and push them to your repository:
-
-```bash
-git add README.md AGENTS.md
-git commit -m "docs: add professional README and AI steering guidelines"
-git push origin main
-```
 
 **Next Step for your Mentor:**
 Now that the README is live, your repo looks legit. Should I provide the **Root `package.json`** next? This will include the scripts to run the whole monorepo with a single command (`pnpm dev`).
