@@ -1,0 +1,3 @@
+packages:
+  - 'apps/*'      # For UI and API
+  - 'packages/*'  # For Shared Logic and Agents

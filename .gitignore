@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+.pnpm-debug.log
+
+# Environment
+.env
+.env.local
+.env.development.local
+
+# Build outputs
+dist
+build
+.next
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# AI specific
+.python-version
+__pycache__
